@@ -1,3 +1,4 @@
+# Nu Uyen Thi PHAN - M1 VMI
 def make_histo(input_file, nbin=20, height=20):
     data_list = []
     with open(input_file, "r") as f:

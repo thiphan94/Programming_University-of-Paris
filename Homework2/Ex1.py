@@ -1,3 +1,4 @@
+# Nu Uyen Thi PHAN - M1 VMI
 def is_pal(s):
     if len(s) <= 1:
         return True
