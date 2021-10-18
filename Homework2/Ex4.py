@@ -22,7 +22,7 @@ def make_histo(input_file, nbin=20, height=20):
 
     bin_counts = [0] * nbin
 
-    for number in numbers:
+    for number in data_list:
         for i in range(len(bin_values) - 1):
             if number >= bin_values[i] and number <= bin_values[i + 1]:
                 bin_counts[i] += 1
@@ -47,4 +47,3 @@ def make_histo(input_file, nbin=20, height=20):
             print(int(val), " ", end="")
         else:
             print(int(val), end=" ")
-    print("")
